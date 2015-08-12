@@ -1,0 +1,16 @@
+{
+    "name": "venditan/success",
+    "type": "library",
+    "description": "PHP client for Absence of Success (AoS) monitoring with Venditan/Success",
+    "keywords": ["success", "venditan", "docnet", "matt", "notifications", "monitoring", "cron"],
+    "homepage": "https://github.com/Venditan/Success",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": ["src/"],
+        "psr-4": {"Venditan\\": "src/Venditan/"}
+    },
+    "include-path": ["src/"]
+}
