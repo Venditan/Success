@@ -2,6 +2,8 @@
 
 Absence of Success (AoS) monitoring client for PHP
 
+**WARNING - this library is in pre-alpha**
+
 ## Example Usage ##
 
 ```php
